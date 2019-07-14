@@ -17,10 +17,10 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Richard Herold"
                     meta={[
-                        { name: 'description', content: 'Sample' },
-                        { name: 'keywords', content: 'sample, something' },
+                        { name: 'description', content: 'Richard Herold Creates Internet Things' },
+                        { name: 'keywords', content: 'Richard, Herold' },
                     ]}
                 >
                 </Helmet>
@@ -31,56 +31,54 @@ class HomeIndex extends React.Component {
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Resume</h3>
+                                <p>Money can be exchanged for goods and services</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
                             <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <h3>Projects</h3>
+                                <p>I sometimes work outside my job</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/projects" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                              <h3>Photography</h3>
+                              <p>I sometimes take pictures</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/photography" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Recipes</h3>
+                                <p>I cook a lot</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/recipes" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                              <h3>Tinkering</h3>
+                              <p>I make things out of other things</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/tinker" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Opinions</h3>
+                                <p>I have opinions please change them</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/opinions" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>Massa libero</h2>
+                                <h2>Does this all seem out of date?</h2>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
+                            <p>You are right, it probably is. </p>
+                            <p>The best way to find out what is going on in my life is to talk to me. So use the form below and I will hopefully respond...</p>
                         </div>
                     </section>
                 </div>
