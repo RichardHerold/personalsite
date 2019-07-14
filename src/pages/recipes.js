@@ -24,7 +24,6 @@ const Recipes = (props) => (
                         <h2>Sed amet aliquam</h2>
                     </header>
                     <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-                    <iframe src="https://drive.google.com/embeddedfolderview?id=0BwJ4MEJ3k8JTZ3YwRnU5ckVsaFU#list" style="width:100%; height:100px; border:0;"></iframe>
                 </div>
             </section>
             <section id="two" className="spotlights">
